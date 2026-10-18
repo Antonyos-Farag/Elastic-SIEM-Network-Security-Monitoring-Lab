@@ -9,7 +9,7 @@
 ![Network: FortiGate](https://img.shields.io/badge/Network-FortiGate-e45454?style=flat-square)
 ![Endpoints: Windows](https://img.shields.io/badge/Endpoints-Windows_10_%26_Server-48a5e8?style=flat-square)
 
-[Architecture](docs/architecture.md) · [Build guide](docs/build-guide.md) · [Attack simulations](docs/attack-simulations.md) · [Evidence & results](docs/evidence.md)
+[Architecture](docs/architecture.md) · [Build guide](docs/build-guide.md) · [Device configurations](docs/configuration.md) · [Backup lines](docs/backup-lines.md) · [Attack simulations](docs/attack-simulations.md) · [Evidence & results](docs/evidence.md)
 
 </div>
 
@@ -92,6 +92,9 @@ The [evidence register](docs/evidence.md) preserves the important gaps, includin
 | Start here | What you will find |
 | :--- | :--- |
 | [Architecture & resilience](docs/architecture.md) | Data paths, trust boundaries, ports, and failure scenarios |
+| [Device-by-device configuration](docs/configuration.md) | Windows 10, Windows Server, Elastic, FortiGate, and service connectivity |
+| [Backup lines explained](docs/backup-lines.md) | Alternate routing, Windows event relays, buffering, and failover validation |
+| [PDF screenshot gallery](docs/screenshots.md) | Four reviewed configuration excerpts with source pages and limitations |
 | [Build guide](docs/build-guide.md) | Ordered setup workflow and secure configuration decisions |
 | [Validation runbook](docs/validation.md) | Health checks, troubleshooting, and recovery test acceptance criteria |
 | [Attack simulations](docs/attack-simulations.md) | Authorized exercise workflow and honest outcome summaries |
@@ -124,4 +127,4 @@ See the [build guide](docs/build-guide.md) before changing hosts. Version number
 
 All offensive activity belongs **only in an isolated, explicitly authorized environment**. Prefer host-only or isolated virtual networks for repeatable exercises; bridged networking in the source report must not be treated as safe isolation.
 
-See [contributing](CONTRIBUTING.md) for documentation and evidence standards, and [security guidance](SECURITY.md) before sharing captures or configurations. The original source PDF is intentionally not republished: its screenshots may contain passwords, enrollment tokens, and other sensitive setup material. This repository does not claim a license for third-party software or the supplied report.
+See [contributing](CONTRIBUTING.md) for documentation and evidence standards, and [security guidance](SECURITY.md) before sharing captures or configurations. Four selected screenshot excerpts are included in the [gallery](docs/screenshots.md), with source references and limitations. The original source PDF is intentionally not republished: its screenshots may contain passwords, enrollment tokens, and other sensitive setup material. This repository does not claim a license for third-party software or the supplied report.
