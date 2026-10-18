@@ -1,0 +1,28 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+*.keystore
+secrets/
+
+# Raw lab artifacts: review and sanitize before explicitly publishing excerpts
+*.pcap
+*.pcapng
+*.evtx
+*.vmdk
+*.vdi
+*.qcow2
+*.iso
+*.ova
+*.ovf
+*.pdf
+raw-evidence/
+
+# Local tooling / OS files
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
