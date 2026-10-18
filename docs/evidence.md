@@ -9,7 +9,7 @@ This repository was prepared from:
 1. The project author's narrative describing the end-to-end build, endpoint Elastic Agents, attack simulations, detection analysis, and resilience goals.
 2. The supplied **SOC_Lab_Documentation_Revised_Task_Distribution.pdf**, a 34-page revised report with numbered figures and three responsibility tracks.
 
-References below point to that supplied report. The PDF is not committed because its text and screenshots may expose passwords, service/enrollment tokens, setup codes, or internal details. No raw screenshots have been republished. If adding evidence, first redact it and follow [security guidance](../SECURITY.md).
+References below point to that supplied report. The PDF is not committed because its text and screenshots may expose passwords, service/enrollment tokens, setup codes, or internal details. Four cropped, visually reviewed screenshot excerpts are included in the [screenshot gallery](screenshots.md); source pages, figure numbers, retained lab details, and evidence limits are documented there. No full PDF pages or credential-bearing setup screenshots are included. If adding evidence, first redact it and follow [security guidance](../SECURITY.md).
 
 **Evidence levels:** *Reported* means stated by the author; *documented* means described/shown in the supplied report; *proposed* means a future test or improvement. Neither documentation nor this repository constitutes a fresh execution of the lab.
 

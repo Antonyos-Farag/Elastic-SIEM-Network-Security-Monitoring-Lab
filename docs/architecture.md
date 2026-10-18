@@ -72,4 +72,4 @@ UDP syslog has no delivery acknowledgment or inherent replay. Logstash persisten
 - Synchronize all clocks before testing; the source shows a FortiGate time-sync warning.
 - Treat logs as sensitive data and define retention and storage limits.
 
-Next: [build guide](build-guide.md) · [failure validation](validation.md)
+Next: [device configurations](configuration.md) · [backup-line designs](backup-lines.md) · [build guide](build-guide.md) · [failure validation](validation.md)

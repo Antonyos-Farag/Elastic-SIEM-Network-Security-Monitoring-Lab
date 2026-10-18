@@ -1,6 +1,6 @@
 # Build guide
 
-[← Project overview](../README.md)
+[← Project overview](../README.md) · [Detailed device configuration](configuration.md) · [Backup-line designs](backup-lines.md) · [PDF screenshots](screenshots.md)
 
 This is an operator workflow, not a tested automated installer. Commands below are diagnostic examples. Obtain packages and version-specific installation instructions from the relevant vendor, verify checksums, and select a mutually compatible, supported stack version. The supplied report labels its Elastic packages **9.4.4**; that label is preserved as source metadata, not independently verified release guidance.
 
